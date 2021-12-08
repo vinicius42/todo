@@ -8,6 +8,8 @@ const users = [];
 app.use(express.json());
 app.use(cors());
 
+//Mais um teste
+
 function checkExistsUserAccount(request, response, next){
     const { username } = request.headers;
 
