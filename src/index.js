@@ -5,7 +5,7 @@ const cors = require("cors");
 
 const users = [];
 
-app.use(express.json());a
+app.use(express.json());
 app.use(cors());
 
 function checkExistsUserAccount(request, response, next){
